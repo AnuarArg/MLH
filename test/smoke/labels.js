@@ -14,7 +14,7 @@ describe('My Little Hero', function () { //define suite title by passing a strin
 
     });
 
-    describe('Elements exist', function () {
+    describe('Labels exist', function () {
 
         it('TC-002 Label for name', function () {
             const label = $$(sel.label)[0].isDisplayed();
